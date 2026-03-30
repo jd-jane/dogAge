@@ -20,22 +20,24 @@
 
 body {
   margin:0;
+  padding:20px;
   font-family:-apple-system, BlinkMacSystemFont;
   background:linear-gradient(135deg,#f2f2f7,#e5e5ea);
   display:flex;
   justify-content:center;
-  align-items:center;
-  height:100vh;
+  align-items:flex-start;
+  min-height:100dvh;
 }
 
 /* 卡片 */
 .phone{
-  width:360px;
+  width:min(100%, 360px);
   padding:24px;
   border-radius:28px;
   backdrop-filter: blur(20px);
   background:rgba(255,255,255,0.75);
   box-shadow:0 20px 40px rgba(0,0,0,0.12);
+  margin-top:40px;
 }
 
 /* 標題 */
